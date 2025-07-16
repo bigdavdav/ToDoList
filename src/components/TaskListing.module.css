@@ -1,0 +1,84 @@
+.listingContainer {
+  width: 46rem;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+}
+
+.listingContainer + .listingContainer {
+  margin-top: 0.75rem;
+}
+
+.listingContainer .checkmark {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: transparent;
+  background: none;
+  outline: none;
+  border: 2px solid var(--blue);
+  border-radius: 50px;
+
+  transition: color 0.2s;
+  transition: background 0.2s;
+  transition: border 0.2s;
+}
+
+.listingContainer .checkmark:hover {
+  background: var(--blue-dark-opacity);
+  border: 2px solid var(--blue-dark);
+}
+
+.listingContainer.complete .checkmark {
+  color: var(--gray-100);
+  background: var(--purple-dark);
+  border: 2px solid var(--purple-dark);
+}
+
+.listingContainer.complete .checkmark:hover {
+  background: var(--purple);
+  border: 2px solid var(--purple);
+}
+
+.listingContainer p {
+  flex: 1;
+  transition: color 0.2s;
+}
+
+.listingContainer.complete p {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.listingContainer .delete {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--gray-300);
+  background: none;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+
+  transition: color 0.2s;
+  transition: background 0.2s;
+}
+
+.listingContainer .delete:hover {
+  background: var(--gray-400);
+  color: var(--danger);
+}
