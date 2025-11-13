@@ -1,7 +1,7 @@
 <h1>To-Do List</h1>
 <br />
 This is the first project I have created from the Rocketseat ReactJS course. It is just a simple to-do list, which uses basic features from React(CSS modules, useState, e.t.c.)
-Please do not mind the porguguese in the page, as that was the language in template for the project.
+Please do not mind the portuguese in the page, as that was the language in template for the project.
 <br />
 <h2>Notes</h2>
 <li>This page comes with two predefined tasks to show the pages functionality.</li>
