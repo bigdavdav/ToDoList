@@ -7,6 +7,7 @@ Please do not mind the portuguese in the page, as that was the language in templ
 <li>This page comes with two predefined tasks to show the pages functionality.</li>
 <li>Anything added or deleted will only stay there during the session. Since this was a small project made to test my understanding of what I've already done, the requirements didn't care enough about storing permanent data.</li>
 <li>If the page has broken functionality, or it just sucks, do an issue request plz :))))))))))))).</li>
+<li>Vlad the goat for helping me publish this to the github website thing</li>
 
 Link:
 https://bigdavdav.github.io/ToDoList/
